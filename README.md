@@ -5,9 +5,9 @@ Your task is to automate test cases using C#, Selenium, and NUnit on DemoQA. Thi
 
 Getting Started
 1. Clone the Repository
-Fork this repository and clone it to your local machine:
-git clone https://github.com/JuanPorcupine/automation_assignment.git
-cd automation-assignment
+- Fork this repository and clone it to your local machine:
+- git clone https://github.com/JuanPorcupine/automation_assignment.git
+- cd automation-assignment
 
 2. Install Dependencies
 Ensure you have the following installed:
@@ -16,13 +16,13 @@ Ensure you have the following installed:
 • ChromeDriver
 • NUnit & NUnit3TestAdapter
 Install Selenium and NUnit via NuGet:
-dotnet add package Selenium.WebDriver  
-dotnet add package Selenium.Support  
-dotnet add package NUnit  
-dotnet add package NUnit3TestAdapter  
+dotnet add package Selenium.WebDriver
+dotnet add package Selenium.Support
+dotnet add package NUnit
+dotnet add package NUnit3TestAdapter
 dotnet add package Selenium.WebDriver.ChromeDriver
 
-3. Project Structure
+4. Project Structure
 automation-assignment/
 │── Tests/
 │   ├── ElementsTests.cs
@@ -66,15 +66,12 @@ Steps:
 4. Wait for the element “Visible After 5 seconds” to appear
 5. Assert that it is displayed
 
-
 Submission Instructions
 1. Create a Feature Branch
 git checkout -b feature/your-name  
-
 2. Write Your Tests in the /Tests directory
 3. Run Tests Locally
 dotnet test  
-
 4. Push Changes & Create a PR
 git add .  
 git commit -m "Completed automation assignment"  
