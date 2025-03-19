@@ -6,7 +6,7 @@ Your task is to automate test cases using C#, Selenium, and NUnit on DemoQA. Thi
 Getting Started
 1. Clone the Repository
 Fork this repository and clone it to your local machine:
-git clone [https://github.com/YOUR-REPO/automation-assignment.git](https://github.com/JuanPorcupine/automation_assignment.git)
+git clone https://github.com/JuanPorcupine/automation_assignment.git
 cd automation-assignment
 
 2. Install Dependencies
